@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.containerOut{
+    display: flex;
+    flex-direction: column;
+    height: 704px;
+    margin: 125px 50px;
+    box-shadow: 50px grey;
+    background-color: white;
+    align-items: center;
+
+}
+
+.status_green .dot{
+    height: 8px;
+    width: 8px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    color: green;
+}
+
+.status_red .dot{
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    color: green;
+}
+
+.header{
+    background-color: antiquewhite;
+    text-align: center;
+    color: orange;
+    margin-top: -25px;
+    border-radius: 20px;
+    align-content: center;
+    align-items: center;
+    padding: 1vw 5vw;
+}
+
+.containerIn{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    word-wrap: normal;
+}
+
+.list{
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 200px;
+    background-color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.list th,td{
+    text-align: left;
+    box-shadow: 10px grey;
+}
+
+.list td{
+    background-color: white;
+    border: 2px solid white;
+    /* padding: 1vw 5vw; */
+}
+
+/* .list td:hover{
+    background: rgba(0, 0, 0, 0.05);background-color: white;
+    border: 2px solid #ccc;
+    padding: 1vw 5vw;
+}  */
+
+.list_header{
+    justify-content: space-around;
+}
+
+.list button{
+    align-items: center;
+    background-color: rgb(124, 165, 226);
+    border: white;
+    border-radius: 2px;
+    padding: 0.5vw 0.5vw;
+}
